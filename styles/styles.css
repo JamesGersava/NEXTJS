@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/1e/a0/9c/1ea09c7598b061facb5cf998e3d201cb.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 5% auto;
+    background-color: rgba(255, 192, 203, 0.5); /* Light pink background */
+    padding: 5%;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* White text */
+}
+
+.container button {
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    color: #ff69b4; /* Barbie pink */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 5%;
+    border: 1px solid #ff69b4; /* Barbie pink border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+    background-color: rgba(255, 192, 203, 0.1); /* Light pink background */
+}
+
+button {
+    padding: 12px;
+    margin: 5%;
+    background-color: #ff69b4; /* Barbie pink */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff; /* White text */
+}
+
+button:hover {
+    background-color: #ffb6c1; /* Lighter Barbie pink on hover */
+}
+
+.error-message {
+    color: #ff69b4; /* Barbie pink */
+    font-size: 80%;
+    margin-bottom: 4%;
+}
